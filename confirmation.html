@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>toys N games</title>
+    <link rel="icon"type="image/x-icon" href="images/logo1.png">
+    <link rel="stylesheet" href="styles.css" type="text/css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/5.0.0-alpha1/css/bootstrap.min.css" integrity="sha384-r4NyP46KrjDleawBgD5tp8Y7UzmLA05oM1iAEQ17CSuDqnUK2+k9luXQOfXJCJ4I" crossorigin="anonymous">
+    <link rel="stylesheet" href="styles2.css" /> 
+  </head>
+  <body onload="updateCartCount()">
+    <nav class="navbar fixed-top navbar-expand-lg">
+      <a class="navbar-brand link-warning" style="font-family:Chalkduster, fantasy;" href="index.html">
+        <img src="images/logo1.png" alt="logo" width="60" height="48" class="logo">toys N games
+      </a>
+    <button class="navbar-toggler" style="border-color: goldenrod;"type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarSupportedContent" >
+      <form class="d-flex mx-auto my-2" onsubmit="return false">
+        <input class="form-control mr-sm-1" style="border-color: goldenrod;" type="search" placeholder="Search toys N games" aria-label="Search" id="search-input">
+        <button class="btn btn-warning my-2 my-sm-0" id="search">Search</button>
+      </form>
+    </div>
+    <div class="shopping">
+      <a href="cart.html">
+          <img src="images/cart.svg">
+          <div class="counter">0</div>
+      </a>
+    </div>
+  </nav>
+  <div id="body">
+  <div>
+    <img src="images/smiley_teeth_background.jpeg" style="width:100vw;" />
+    <div class="centered"><h1>Success! Your order has been placed!</h1></div>
+  </div>
+      <script src="script.js"></script>
+      <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+      <script src="https://stackpath.bootstrapcdn.com/bootstrap/5.0.0-alpha1/js/bootstrap.min.js" integrity="sha384-oesi62hOLfzrys4LxRF63OJCXdXDipiYWBnvTl9Y9/TRlw5xlKIEHpNyvvDShgf/" crossorigin="anonymous"></script>
+</body>
+</html>
